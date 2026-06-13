@@ -142,6 +142,55 @@
     ]
   },
   {
+    "id": "accordion",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "items",
+        "label": "Number of Items",
+        "value": "3"
+      },
+      {
+        "component": "select",
+        "name": "defaultOpen",
+        "label": "Default Open Item",
+        "options": [
+          {
+            "name": "First",
+            "value": "0"
+          },
+          {
+            "name": "Second",
+            "value": "1"
+          },
+          {
+            "name": "Third",
+            "value": "2"
+          }
+        ],
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "accordion-item",
+    "fields": [
+      {
+        "component": "text",
+        "name": "heading",
+        "label": "Heading",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "content",
+        "label": "Content",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
